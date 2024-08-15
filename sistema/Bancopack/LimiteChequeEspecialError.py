@@ -1,0 +1,2 @@
+class LimiteChequeEspecialError(Exception):
+    pass

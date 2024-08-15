@@ -1,3 +1,21 @@
-﻿Durante a realização deste trabalho, deparamos com algumas dificuldades e desafios que exigiram esforço e adaptação. Uma das principais dificuldades foi lidar com a sintaxe da linguagem de programação, por ser diferente da linguagem que já estávamos habituados, precisando familiarizar com a estrutura e forma de escrever o código, mas com a prática e a referência de matérias e documentações, pudemos superar essa dificuldade. Outra dificuldade enfrentada foi o desenvolvimento da classe “App”, em criar toda a estrutura principal do programa e a lógica do aplicativo. Tarefa que envolvia a leitura de um arquivo e implementação de funcionalidades. Para isso, foi necessário, testes, compreender os requisitos do projeto e apresentá-los em código de forma eficiente. Além disso, enfrentamos problemas com as importações das classes, quais eram necessários, como deveriam ser implementados e como funcionavam. Para garantir que as importações fossem feitas adequadamente evitando erros de referência.
+﻿## Programação Orientada a Dados
 
-Quanto a evolução de conhecimento do grupo, o projeto proporcionou uma oportunidade para aprofundar nossos entendimentos da programação orientada a objetos em Python. Através dos desafios enfrentados, adquirimos conhecimentos mais sólidos sobre a sintaxe da linguagem e a sua aplicação, funcionalidade e estruturação de métodos e classes. Essa experiencia permitiu ao grupo uma melhor base de programação em Python e aprimorar nossas habilidades, através de aprendizado, prática e perseverança.
+Esse código, realizado em Python (versão 3.11), implementa uma solução para o gerenciamento de dados de clientes dentro de uma Fintech, e permite que sejam feitas operações financeiras diante dos dados fornecidos.
+
+Marcelo Nascimento da Silva
+
+Operações que poderão ser executadas:
+Criação de contas corrente, poupança e investimento, que permitem realizar saque, depósito, consulta de saldo, atribuição e calculos de rendimento(conta investimento). Há também algumas restrições quanto ao número da conta que necessitam de 4 dígitos, o cpf de 11 dígitos, saldo de número positivo, e também, o nome do cliente ter no máximo 40 caracteres.
+
+## Como usar o sistema:
+
+Execute o código fornecendo o arquivo de entrada(1.txt, 2.txt);
+
+O código irá processar o arquivo e realizar as operações bancárias necessárias;
+
+Cada arquivo de entrada terá um arquivo de log correspondente com extensão .log e um arquivo de saída com extensão .saida;
+
+Após processar todos os arquivos de entrada, o código exibirá as estatísticas sobre as contas criadas, incluindo o número total de contas, o número de contas correntes, o número de contas poupança e o número de contas de investimento.
+
+Controle de erros:
+O código é executado, e quando um erro é encontrado ele é registrado em log_pth. São eles: DadosInvalidosError: lançada quando os dados fornecidos são inválidos. ContaInexistenteError: lançada quando uma conta não existe ou não foi encontrada. SaldoInsuficienteError: lançada quando uma transação não pode ser concluída devido a saldo insuficiente ou limite excedido. TransacaoInvalidaError: lançada quando uma transação é inválida.
